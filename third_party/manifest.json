@@ -1,0 +1,48 @@
+{
+  "version": "v2.3.5",
+  "upstream": "https://github.com/XIU2/CloudflareSpeedTest",
+  "source": {
+    "file": "third_party/CloudflareSpeedTest-v2.3.5-source.tar.gz",
+    "url": "https://codeload.github.com/XIU2/CloudflareSpeedTest/tar.gz/refs/tags/v2.3.5",
+    "sha256": "50cdb7fe8fba26b5e2564772605860a5b8843b797b7f8ab58626d5e1a493b00f"
+  },
+  "ip_list_sha256": "fffd71631d4e8ca3933621f915da6b943e748ab5c32980bb39935d7b66517d4b",
+  "platforms": {
+    "windows-amd64": {
+      "file": "bin/windows-amd64/cfst.exe",
+      "sha256": "f8b38bbc265e8906d0f8549c84cc70653d8d798319db63790fc57d018216702a",
+      "archive_url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.3.5/cfst_windows_amd64.zip",
+      "archive_sha256": "67d06a0c68b7fd6998d5e6abea1dbf850cac2c19c5d8c5980aa32fc7aba1ff5f"
+    },
+    "windows-arm64": {
+      "file": "bin/windows-arm64/cfst.exe",
+      "sha256": "6e0e6526d029b7aa4a9c921ae20a4f9025e056accecd4652dfa88c01650b5722",
+      "archive_url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.3.5/cfst_windows_arm64.zip",
+      "archive_sha256": "84db1fd918fbc4e6fc1fc127681b24810dfdb4b31aa22374e5e129c6ec529573"
+    },
+    "darwin-amd64": {
+      "file": "bin/darwin-amd64/cfst",
+      "sha256": "899f2db79f3a68d60d35dbaf7f0c34ccbbe3c3ef06d9c8db1a411f99df91c9bf",
+      "archive_url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.3.5/cfst_darwin_amd64.zip",
+      "archive_sha256": "66ce3ae89430e851cab9710d54b6d91324e0aae255f0c92a91072d57724561d5"
+    },
+    "darwin-arm64": {
+      "file": "bin/darwin-arm64/cfst",
+      "sha256": "c98628414b8812a78c36de0b7fd50066a9fda57347658c212f32f9796dea064a",
+      "archive_url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.3.5/cfst_darwin_arm64.zip",
+      "archive_sha256": "0623f6d24c939e3d3716f556f4d39c7b8781cf6600ee838a1b64e6b2fe4609dc"
+    },
+    "linux-amd64": {
+      "file": "bin/linux-amd64/cfst",
+      "sha256": "2d0b1f831eea02ea2eb98d1cecbe9d8d631a72f19c46b23bb0457cb12f75e556",
+      "archive_url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.3.5/cfst_linux_amd64.tar.gz",
+      "archive_sha256": "c4c8fc76b4e1bf2bdb5ced8b765956d82dda7bc4eb59df5c04053f0f7db98d90"
+    },
+    "linux-arm64": {
+      "file": "bin/linux-arm64/cfst",
+      "sha256": "7c3cccbe3771c9618469d132e1a70e12efc0ec8df601087a09c15ec7d315b98f",
+      "archive_url": "https://github.com/XIU2/CloudflareSpeedTest/releases/download/v2.3.5/cfst_linux_arm64.tar.gz",
+      "archive_sha256": "0ac992fcf24d4684caed33620deb9b83ce82f32d2418dc1f90be490ce5900300"
+    }
+  }
+}

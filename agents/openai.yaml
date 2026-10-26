@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cloudflare IP 优选"
+  short_description: "内置跨平台 CFST，先筛连接质量再验证指定域名与端口的 HTTPS"
+  default_prompt: "使用 $cfst-ip-select 优选 Cloudflare 入口 IP，先询问我的域名、HTTPS 端口和当前测试网络。"
